@@ -1,5 +1,6 @@
 html{
   scroll-behavior: smooth;
+  
 }
 
 .itens_menu{
@@ -28,6 +29,8 @@ h1{
   font-size: 2em;
   margin: 1%;
   margin-bottom: 1%;
+  font-family: 'Righteous', cursive;
+
 }
 
 h2{
@@ -91,6 +94,7 @@ p{
   text-indent: 15px;
   text-align: justify;
   line-height: 1.5;
+  font-family: 'Patua One', cursive;
 }
 
 .img_insta{

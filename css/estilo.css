@@ -202,3 +202,18 @@ audio{
 audio::-webkit-media-controls-panel{ 
   background-color: #34b9ee !important; 
 }
+
+input[type=text], select, input[type=email], input[type=submit], input[type=tel], input[type=message] {
+  width: 40%;
+  padding: 10px 15px;
+  margin: 7px 0;
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: 'Baloo 2', cursive;
+}
+
+input[type=submit]:hover {
+  background-color: #34b9ee;
+}

@@ -205,15 +205,44 @@ audio::-webkit-media-controls-panel{
 
 input[type=text], select, input[type=email], input[type=submit], input[type=tel], input[type=message] {
   width: 40%;
-  padding: 10px 15px;
-  margin: 7px 0;
+  padding: 12px 20px;
+  margin: 8px 0;
   display: inline-block;
   border: 1px solid rgb(0, 0, 0);
-  border-radius: 5px;
+  border-radius: 10px;
   box-sizing: border-box;
   font-family: 'Baloo 2', cursive;
 }
 
 input[type=submit]:hover {
-  background-color: #34b9ee;
+  background-color: #35f50e;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.form {
+  border-radius: 20px;
+  background-color:  #daf5ff;
+  padding: 10px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }

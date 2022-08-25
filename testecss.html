@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,6 +19,94 @@
         p{
             color: blue;
         }
+
+        .container{
+            position:relative;
+            background-color: rgb(229, 202, 255);
+            width: 100%;
+            height: 1220px;
+            text-align: center;
+        }
+
+        .topoesquerda{
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: chartreuse;
+
+        }
+
+        .topodireita{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 18px ;
+            width: 20%;
+            background-color: firebrick;
+        }
+
+        .baixoesquerda{
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(166, 227, 255);
+
+        }
+
+        .baixodireita{
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: orange;
+        }
+
+        .centro{
+            position: absolute;
+            top: 50%;
+            right: 40%;
+            text-align: center;
+            font-size: 18px;
+            width: 20%;
+            background-color: saddlebrown;
+        }
+
+        .fixo{
+            position: fixed;
+            z-index: 1030 ;
+            left: 0%;
+            right: 0%;
+            top: 0%;
+        }
+         
+        
+         
+
+        
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1 class="fixo" style="background-color:rgb(255, 255, 255);color: rgb(0, 0, 0);"> Teste CSS interno e Inline </h1>
+        <p style="background-color: rgb(255, 46, 46); font-style: italic;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae esse atque autem rem aliquam. Iure laboriosam beatae in quidem possimus voluptatem, explicabo cupiditate aut minima natus quibusdam impedit quasi magni!</p>
+        <p style="background-color: rgb(255, 46, 46); font-style: italic;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, corporis molestias itaque, ut perferendis tempora voluptate quibusdam beatae ea voluptas omnis rem commodi laboriosam odit nostrum architecto, quaerat consectetur corrupti!</p>
+    </header>
+    <div class="main">
+        <h1>Testando....</h1>
+        <div class="container">
+            <div class="topoesquerda">TopoEsq</div>
+            <div class="topodireita">TopoDir</div>
+            <div class="baixoesquerda">BaixoEsq</div>
+            <div class="baixodireita">BaixoDir</div>
+            <div class="centro">Centro</div>
+        </div>
+
     </style>
 </head>
 <body>

@@ -7,6 +7,13 @@ html{
   text-align: center;
 }
 
+.menu {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  
+}
+
 .itens_menu li{
   font-size: 1.3em;
   line-height: 1.5;
@@ -22,6 +29,12 @@ width: 80%;
 margin: auto;
 
 }
+
+
+
+
+
+
 
 h1{
   text-align: center;
@@ -247,8 +260,13 @@ label {
   clear: both;
 }
 
+.logo{
+  text-align: center;
+  padding-right: 50%;
+}
+
 @media screen and (max-width: 400px) {
-  .col-25, .col-75, input[type=submit] {
+  .col-25, .col-75, input[type=submit] 
     width: 100%;
     margin-top: 0;
   }

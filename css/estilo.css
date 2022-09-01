@@ -246,3 +246,7 @@ label {
   display: table;
   clear: both;
 }
+
+.logo{
+ text-align: center;
+}
